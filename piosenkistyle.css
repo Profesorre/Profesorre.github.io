@@ -1,0 +1,40 @@
+header{
+					background-color: red;
+					padding: 10px;
+					text-align:center;
+					border-radius:20px;
+				}
+				.title {
+					
+					text-align:center;
+				}
+				.autor {
+					
+					text-align:right;
+					margin-right:10%;
+			    }
+				a{
+					text-decoration:none;
+				}
+				div{
+					color:white;
+					display: inline-block;
+					width:30%;
+					background-color:black;
+					margin:10px;
+					margin-left:39px;
+					padding:10px;
+					border-radius:30px;
+					
+					
+				}
+				div:hover{
+					background-color:red;
+					color:black;
+				}
+				footer{
+					background-color: red;
+					padding: 10px;
+					text-align:center;
+					border-radius:20px;
+				}
