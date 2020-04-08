@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<style>
+		*{
+                    box-sizing:border-box;
+                    text-align:center;
+					font-family:arial;
+					float:center;
+					
+					
+				
+				}
+		body{
+			display:inline-block;
+			background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(236,169,52,1) 40%, rgba(0,212,255,1) 100%);
+			
+		}
+				
+		#sctitle{
+			font-size:60px;
+			padding-top:3vh;
+
+		}
+		
+		#box{
+			background-color:black;
+			width:20vw;
+			height:20vh;
+			margin:0 auto;
+			margin-top:250px;
+			text-align:center;
+			padding:40px;
+			color:white;
+			border-radius:30px;
+			font-size:1.7vmin;
+			
+			
+			
+			
+		}
+		
+		
+		p{
+			width:600px;
+			height:100px;
+			text-align:center;
+			margin:0 auto;
+			font-size:40px;
+			margin-top:100px;
+		}
+		h1{
+			font-size:90px;
+			padding-top:3vh;
+		}
+		#table{
+			padding:60px;
+			text-align:left;
+			font-size:20px;
+		}
+		li{
+			text-align:left;
+		}
+	</style>
+</head>
+<body>
+	<h1>
+		Responsive Web Design
+	</h1>
+	
+	<p>	Programowanie responsywne polega na dostosowywaniu treści strony do zachowania, urządzenia i wielkości ekranu urzytkownika</p>
+	
+	<div id = "box">
+		Ten kontener będzie zmieniał swoją wielkość w zależności od wielkości ekranu lub okna użytkownika. Wielkość czcionki pozostanie do niego dopasowana
+	</div>
+	<div id = "sctitle">
+	<h3>Przydatne znaczniki wspierające RWD</h3>
+	</div>
+	<div id = "table">
+	<ul>
+		<li>@media (max-height: 100px){ZASADY CSS}  -  ta linia kodu oznacza, że podany w nawiasach kod CSS zostanie wykonany jedynie gdy wysokość urządzenia jest większa bądź równa 350px<br></li>
+		<li>max-width:100%  -  obrazek nie będzie nigdy większy niż kontener w którym się znajduje<br></li>
+		<li>height: auto  -  obrazek zachowa oryginalne proporcje<br></li>
+		<li>height i width  -  w przypadku wyświetlaczy o dużych rozdzielczościach sposobem na zachowanie dobrego wyglądu obrazka jest dwukrotne go pomniejszenie<br></li>
+		<li>vw  -  oznacza procent szerokości widzianego obszaru<br></li>
+		<li>vh  -  oznacza procent wysokości widzianego obszaru<br></li>
+		<li>vmin  -  oznacza procent mniejszej wartości widzianego obszaru<br></li>
+		<li>vmax  -  oznacza procent większej wartości widzianego obszaru<br></li>
+	</ul>	
+	
+	</div>
+	<img src = "https://enginetemplates.com/wp-content/uploads/edd/2017/07/et-web-design-free-responsive-joomla-template.png"
+</body>
+</html>
